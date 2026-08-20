@@ -118,16 +118,16 @@ class ModelConfig:
 # Inference through API calls
 api_inference_model_map = {
     "BlueLM-Flash": ModelConfig(
-    model_name="BlueLM-Flash",
-    display_name="BlueLM-Flash",
-    url="https://api-ai.vivo.com.cn/v1/completions",
-    org="vivo",
-    license="Proprietary",
-    model_handler=VivoAPIHandler,
-    input_price=None,
-    output_price=None,
-    is_fc_model=True,
-    underscore_to_dot=True,
+        model_name="BlueLM-Flash",
+        display_name="BlueLM-Flash",
+        url="https://api-ai.vivo.com.cn/v1/completions",
+        org="vivo",
+        license="Proprietary",
+        model_handler=VivoAPIHandler,
+        input_price=None,
+        output_price=None,
+        is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "gorilla-openfunctions-v2": ModelConfig(
         model_name="gorilla-openfunctions-v2",
