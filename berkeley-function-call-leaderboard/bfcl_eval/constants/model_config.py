@@ -117,9 +117,9 @@ class ModelConfig:
 
 # Inference through API calls
 api_inference_model_map = {
-    "BlueLM-3.6-35B-A3B-0806": ModelConfig(
-    model_name="BlueLM-3.6-35B-A3B-0806",
-    display_name="BlueLM-3.6-35B-A3B-0806",
+    "BlueLM-Flash": ModelConfig(
+    model_name="BlueLM-Flash",
+    display_name="BlueLM-Flash",
     url="https://api-ai.vivo.com.cn/v1/completions",
     org="vivo",
     license="Proprietary",
